@@ -1,0 +1,63 @@
+{
+    "chargingStations": [
+        {
+            "id":"1",
+            "lat":65.05,
+            "lng":25.5,
+            "City": "Oulu City",
+            "Type": "Standard Charger",
+            "price:": 1
+
+        },
+        {
+            "id":"2",
+            "lat":66.50,
+            "lng":25.72,
+            "City": "Rovaniemi",
+            "Type": "Standard Charger",
+            "price:": 1
+        },
+        {
+            "id":"3",
+            "lat":60.16,
+            "lng":24.92,
+            "City":"Helsinki",
+            "Type": "Fast-Charge Station",
+            "price:":1.6
+        },
+        {
+            "id":"4",
+            "lat":60.46,
+            "lng":22.26,
+            "City": "Turku",
+            "Type":"Fast-Charge Station",
+            "price:":1.6
+        },
+        {
+            "id":"5",
+            "lat":64.92,
+            "lng":25.35,
+            "City":"Oulu Airport",
+            "Type":"Standard Charger",
+            "price:":1
+        },
+        {
+            "id":"6",
+            "lat":60.32,
+            "lng":24.95,
+            "City":"Helsinki Airport",
+            "Type":"Fast-Charge Station",
+            "price:":1.6
+        },
+        {
+            "id":"7",
+            "lat":62.94,
+            "lng":27.62,
+            "City":"Kuopio",
+            "Type":"Standard Charger",
+            "price:":1
+        }
+    ]
+
+
+}
