@@ -9,6 +9,7 @@ class App extends React.Component{
     super(props);
     this.state={  
       stationArray:[],
+      stationSearch:"",
 
     }
   }
@@ -19,12 +20,17 @@ componentDidMount(){
       console.log('test')
     });
 }
+ChangeOfField = (event)=>{
+  console.log('ActionOnKeyboard');
+  console.log(event.target.value);
+  this.setState({stationSearch: event.target.value})
+}
   render(){
 
     return(
       <>
-      <Menu/>
-      <Maps stationArray ={this.state.stationArray}/>
+      <Menu onChange={this.ChangeOfField}/>
+      <Maps stationArray ={this.state.stationArray.filter((station) => station.City.includes(this.state.stationSearch))}/>
       </>
     )
 
