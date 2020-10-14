@@ -17,8 +17,6 @@ export class MapContainer extends Component {
         <InfoWindow onClose={this.onInfoWindowClose}>
             <div>
               <h1>{this.state.selectedPlace.name}
-                  {this.state.selectedPlace.id}
-                  {this.state.selectedPlace.position}
               </h1>
             </div>
         </InfoWindow>
