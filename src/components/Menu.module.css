@@ -1,0 +1,41 @@
+.headerBackground{
+    background-color: rgb(32, 16, 175);
+}
+
+.container {
+    display: flex;
+    width: auto;
+    color: white;
+   
+    align-items: center;
+   
+}
+
+.subCat{
+    
+    padding: 30px;
+    border: 0px solid;
+    color: white;
+    text-decoration: none;
+
+}
+:active{
+    text-decoration: none;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px;
+
+}
+
+
+
+.searchbar {
+    margin-left: 10px;
+}
+.login {
+    margin-left: 10px;
+        
+}
