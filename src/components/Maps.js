@@ -12,7 +12,7 @@ export class MapContainer extends Component {
       <Map google={this.props.google} zoom={7}initialCenter={{lat: 65.05,lng: 25.5,}}>
         {this.props.stationArray.map((stationArray, index)=>
         <Marker onClick={this.onMarkerClick}
-                name={stationArray.City} key={stationArray.id} position={{lat:stationArray.lat, lng:stationArray.lng}}/>)}
+                name={stationArray.City} key={stationArray.id} title={stationArray.City} position={{lat:stationArray.lat, lng:stationArray.lng}}/>)}
  
         <InfoWindow onClose={this.onInfoWindowClose}>
             <div>

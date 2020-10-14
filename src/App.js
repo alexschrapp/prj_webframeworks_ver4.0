@@ -13,9 +13,10 @@ class App extends React.Component{
     }
   }
 componentDidMount(){
-  axios.get('http://localhost:4000/')
+  axios.get('http://localhost:4000/chargingStations')
     .then((response)=>{
       this.setState({stationArray: response.data})
+      console.log('test')
     });
 }
   render(){
