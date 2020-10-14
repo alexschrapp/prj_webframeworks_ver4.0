@@ -11,16 +11,6 @@ export default function Menu(props) {
                 <div className={styles.subCat }to='/'>
                     <div>Sign me up</div>
                 </div>
-                <div isAuthenticated={props.isAuthenticated} path="/" render={(props)=>
-                    <div className={styles.subCat } to='/charge'>
-                        <div>Select charger</div>
-                    </div>}>
-                </div>
-                <div isAuthenticated={props.isAuthenticated} path="/" render={(props)=>
-                    <div  className={styles.subCat } to='/history'>
-                        <div>Charging History</div>
-                    </div>}>
-                </div>
                 <div className={styles.subCat } to='/signup'>
                     <div>Map/Kortti</div>
                 </div>
